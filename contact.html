@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Name: Claudia Zeledon
+Date Created: September 9, 2018
+Most recent revision:
+-->
+<html lang="en">
+
+<head>
+  <title>Tidewater Grill & Bar: Contact</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Tidewater Grill & Bar</h1>
+  </header>
+
+  <hr />
+  <nav>
+    <p><a href="index.html">Home</a></p>
+    <p><a href="menu.html">Menu</a></p>
+    <p><a href="contact.html">Contact Us</a></p>
+  </nav>
+  <hr />
+
+  <section>
+    <article id="contact">
+      <form action="submit.html" method="POST">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br />
+
+        <label for="emailAddress">Email:</label>
+        <input type="email" id="emailAddress" name="emailAddress"><br />
+
+        <label for="phoneNumber">Phone:</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber"><br />
+
+        <label for="inquiry">Reason for Inquiry:</label>
+        <select id="inquiry" name="inquiry">
+          <option value="catering" selected>Catering</option>
+          <option value="privateparty">Private Party</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select><br />
+
+        <label for="info">Additional Information</label>
+        <textarea id="info" name="info">
+        </textarea>
+
+        <fieldset>
+          <legend>Have you been to the restaurant?</legend>
+          <input type="radio" id="choice1" name="beenToRestaurant" value="No">
+          <label for="choice1">Yes</label>
+          <input type="radio" id="choice2" name="beenToRestaurant" value="Yes">
+          <label for="choice2">No</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Best days to contact you:</legend>
+          <input type="checkbox" id="monday" name="bestDayContact" value="monday">
+          <label for="monday">M</label>
+          <input type="checkbox" id="tuesday" name="bestDayContact" value="tuesday">
+          <label for="tuesday">T</label>
+          <input type="checkbox" id="wednesday" name="bestDayContact" value="wednesday">
+          <label for="wednesday">W</label>
+          <input type="checkbox" id="thursday" name="bestDayContact" value="thursday">
+          <label for="thursday">Th</label>
+          <input type="checkbox" id="friday" name="bestDayContact" value="friday">
+          <label for="friday">F</label>
+        </fieldset>
+
+        <input type="submit" name="submit" value="Send Request">
+      </form>
+    </article>
+  </section>
+
+  <footer>
+    <hr />
+    <p>4673 NW S River Dr, Miami, FL, 33124</p>
+    <p>(305) 779-5022</p>
+  </footer>
+
+</body>
+</html>
