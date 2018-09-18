@@ -3,6 +3,7 @@
 function validate() {
   var name = document.forms["contactForm"]["fullName"];
   var email = document.forms["contactForm"]["emailAddress"];
+
   var emailCheck = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
   if (name.value == "") {

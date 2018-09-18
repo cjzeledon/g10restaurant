@@ -2,7 +2,7 @@
 <!--
 Name: Claudia Zeledon
 Date Created: September 9, 2018
-Most recent revision: September 16, 2018
+Most recent revision: September 17, 2018
 -->
 <html lang="en">
 
@@ -44,6 +44,7 @@ Most recent revision: September 16, 2018
     #beverages-menu th {
       text-align: left;
       font-size: 1.6em;
+      background-color: #F5F1E3;
     }
   </style>
 </head>
@@ -56,13 +57,13 @@ Most recent revision: September 16, 2018
       <div id="carouselContent" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner" role="listbox">
           <div class="carousel-item active text-center p-4">
-            <p>We're opening a new location!</p>
+            <p class="alert alert-light mb-0" role="alert">We're opening a new location!</p>
           </div>
           <div class="carousel-item text-center p-4">
-            <p>We're rolling out our seasonal menu, with special options for this season.</p>
+            <p class="alert alert-light mb-0" role="alert">We're rolling out our seasonal menu, with special options for this season.</p>
           </div>
           <div class="carousel-item text-center p-4">
-            <p>The Drink of the Month is SG Special Brew.</p>
+            <p class="alert alert-light mb-0" role="alert">The Drink of the Month is SG Special Brew.</p>
           </div>
         </div>
 
@@ -78,15 +79,15 @@ Most recent revision: September 16, 2018
     </div>
   </header>
 
-  <nav class="container">
-    <a class ="btn" href="index.html"><i class="material-icons">home</i></a>
+  <nav class="container pb-3">
+    <a class ="btn pb-0" href="index.html"><i class="material-icons">home</i></a>
     <a class ="btn" href="menu.html">Menu</a>
     <a class ="btn" href="contact.html">Contact Us</a>
   </nav>
 
   <section class="container">
     <article id="menu">
-      <table id="food-menu" class="table table-responsive">
+      <table id="food-menu" class="table table-responsive table-borderless">
         <tbody>
           <tr>
             <td>
@@ -133,11 +134,11 @@ Most recent revision: September 16, 2018
 
       <br />
 
-      <table id="beverages-menu" class="table">
+      <table id="beverages-menu" class="table table-borderless">
         <thead>
           <tr>
             <th colspan="2">
-              Beverages
+              <h3>Beverages</h3>
             </th>
           </tr>
         </thead>
